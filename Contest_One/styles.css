@@ -1,0 +1,90 @@
+*{
+    background-color: black;
+    color:white;
+}
+
+body{
+    padding: 20px;
+}
+
+form .container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+form .container div{
+    width: 30%;
+}
+
+
+input{
+    margin-top: 4px;
+    width: 100%;
+    border:1px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+#btn{
+    background-color: white;
+    color: black;
+    width: 20%;
+    margin: 30px 0;
+    height: 8vh;
+    border: none;
+    border-radius: 0;
+    font-size: larger;
+}
+
+.employee-list{
+    color:white;
+    display: float;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+.employee-card{
+    display: flex;
+    border: 1px solid white;
+    width: 40%;
+    float: left;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    height: 5vh;
+}
+.btndiv{
+    align-items: center;
+    margin: auto;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    width: 20%;
+    height:5vh;
+    border-radius: 50px;
+    margin:18px;
+}
+#error{
+    color:red;
+}
+#success{
+    color: #43ff78;
+    font-size: large;
+}
+
+#initialmsg{
+    color: gray;
+    font-size: large;
+}
