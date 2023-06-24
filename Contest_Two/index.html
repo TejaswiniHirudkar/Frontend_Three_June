@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="head">
+        <p id="header">Header</p>
+        <div class="right">
+            <p id="signup">Signup</p>
+            <p id="profile">Profile</p>
+        </div>
+        
+    </div>
+    
+    <div class="section">
+        
+        <form id="signup-form">
+            <h1>Signup</h1>
+            <div class="content">
+                <input type="text" id="name" placeholder="Full Name">
+                <hr>
+            </div>
+
+            <div class="content">
+                <input type="email" id="email" placeholder="Email">
+                <hr>
+            </div>
+
+            <div class="content">
+                <input type="password" id="password" placeholder="Password">
+                <hr>
+            </div>
+
+            <div class="content">
+                <input type="password" id="confirm-password" placeholder="Confirm Password">
+                <hr>
+            </div>
+           
+            <div id="error"></div>
+            <div id="success"></div>
+
+            <button id="signup-btn" type="submit">Signup</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
