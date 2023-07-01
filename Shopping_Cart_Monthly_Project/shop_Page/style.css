@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@300;400;500;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap');
+*{
+    /* font-family: 'Inter', 'sans-serif'; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: 'Inter', 'sans-serif';
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    height: 10%;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color:white;
+    font-size: 24px;
+}
+
+nav a{
+    padding:0 5px;
+    text-decoration: none;
+    color:white;
+    justify-content: space-between;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    margin-top:75px;
+}
+
+aside{
+    position: fixed;
+    top:10%;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width:15%;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    margin:10px;
+}
+
+hr{
+    width: 100%;
+}
+
+.maindiv p{
+    font-size: 24px;
+    margin:3px 0;
+}
+
+.subdiv{
+    display: flex;
+   width: 100%;
+   font-size: 18px;
+   padding:2px 0;
+}
+
+.forlabel{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn{
+    width:80%;
+    margin:auto;
+    height:60px;
+}
+
+#btn button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border:1px solid white;
+   
+}
+
+input[type="checkbox"] {
+    appearance: none; /* Remove default styles on modern browsers */
+    width: 15px;
+    height:15px;
+    background-color: black; /* Set the background color */
+    border: 1px solid white; /* Set the border color and width */
+    border-radius: 4px; /*Optionally add border radius
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: white; /* Set the background color for checked state */
+    border: 1px solid black; /* Set the border color and width for checked state */
+  }
+
+  input[type="checkbox"]:checked::before {
+    content: "\2714"; /* Unicode value for checkmark symbol */
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: black;
+  }
+
+  .container{
+    width:100%;
+    margin-left: 15%;
+    padding:20px;
+  }
+
+  .container .searchbardiv{
+    width:100%;
+    height:40px;
+    display: flex;
+    border:1px solid black;
+    padding-left: 5px;
+  }
+
+  #searchbar{
+    width:100%;
+    padding:5px;
+    border:none;
+    font-size: 18px;
+  }
+
+  .container .searchbardiv input:focus{
+    outline: none;
+  }
+
+  .container .searchbardiv input::placeholder{
+    color:black
+  }
+
+  img{
+    height:25px;
+    width:25px;
+    margin:auto;
+  }
+
+  #filterbtns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #filterbtns button{
+    background-color: white;
+    color: black;
+    height: 35px;
+    width:200px;
+    font-size: 20px;
+    border: 1px solid black;
+  }
+  #filterbtns button:hover{
+    background-color: black;
+    color: white;
+  }
+
+
+  

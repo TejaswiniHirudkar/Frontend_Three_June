@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div id="firstdiv">
+            Shopping Cart
+        </div>
+
+        <div id="seconddiv">
+            <a href="/index.html">Home</a>
+            <a href="../login_Page/">Login</a>
+            <a href="../signup_Page/">Signup</a>
+            <a href="../cart_Page">My Cart</a>
+            <a href="../profile_Page">Profile</a>
+        </div>
+    </nav>
+
+    <main>
+        <aside>
+            <div class="maindiv">
+                <p>Colors</p>
+                <div class="subdiv">
+                    <input type="checkbox" id="red">&nbsp
+                    <label for="red">Red</label>
+                </div>
+
+                <div class="subdiv">
+                    <input type="checkbox" id="blue">&nbsp
+                    <label for="red">Blue</label>
+                </div>
+
+                <div class="subdiv">
+                    <input type="checkbox" id="green">&nbsp
+                    <label for="red">Green</label>
+                </div>
+
+                <div class="subdiv">
+                    <input type="checkbox" id="Black">&nbsp
+                    <label for="red">Black</label>
+                </div>
+
+                <div class="subdiv">
+                    <input type="checkbox" id="white">&nbsp
+                    <label for="red">White</label>
+                </div>
+            </div>
+            <hr>
+
+            <div class="maindiv">
+                <p>Sizes</p>
+                <div class="subdiv">
+                    <input type="checkbox" id="small">&nbsp
+                    <label for="red">S</label>
+                </div>
+                <div class="subdiv">
+                    <input type="checkbox" id="medium">&nbsp
+                    <label for="red">M</label>
+                </div>
+                <div class="subdiv">
+                    <input type="checkbox" id="large">&nbsp
+                    <label for="red">L</label>
+                </div>
+                <div class="subdiv">
+                    <input type="checkbox" id="extralarge">&nbsp
+                    <label for="red">XL</label>
+                </div>
+            </div>
+            <hr>
+
+            <div class="maindiv">
+                <p>Rating</p>
+                <input type="range" id="range" max="5" min="0" step="1">
+                <div class="forlabel">
+                    <label for="range" class="label-left">0</label>
+                    <label for="range" class="label-right">5</label>
+                </div>
+            </div>
+            <hr>
+            <div class="maindiv">
+                <p>Price Range</p>
+                <div class="subdiv">
+                    <input type="checkbox" id="zeroto25">&nbsp
+                    <label for="red">$0 to $25</label>
+                </div>
+                <div class="subdiv">
+                    <input type="checkbox" id="25to50">&nbsp
+                    <label for="red">$25 to $50</label>
+                </div>
+                <div class="subdiv">
+                    <input type="checkbox" id="50to100">&nbsp
+                    <label for="red">$50 to $100</label>
+                </div>
+                <div class="subdiv">
+                    <input type="checkbox" id="onwards">&nbsp
+                    <label for="red">$100 onwards</label>
+                </div>
+            </div>
+
+            <div id="btn">
+                <button>Apply Filter</button>
+            </div>
+        </aside>
+
+        <div class="container">
+            <div class="searchbardiv">
+                <img src="ant-design_search-outlined.png" alt="searchlogo">
+                <input type="search" placeholder="Search" id="searchbar">
+            </div>
+            <div id="filterbtns">
+                <button id="all">All</button>
+                <button id="men">Mens</button>
+                <button id="women">Womens</button>
+                <button id="jewellery">Jewellery</button>
+                <button id="electronics">Electronics</button>
+            </div>
+            <div class="productcontainer">
+
+            </div>
+        </div>
+    </main>
+
+   <script src="script.js"></script>
+</body>
+</html>
