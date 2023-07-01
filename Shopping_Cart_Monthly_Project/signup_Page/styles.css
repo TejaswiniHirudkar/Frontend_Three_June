@@ -50,7 +50,7 @@ input::placeholder{
     color:black;
 }
 
-#signupbtn{
+.t-btn{
     height:50px;
     width:250px;
     background-color: black;
